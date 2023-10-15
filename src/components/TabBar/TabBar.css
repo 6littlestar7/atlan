@@ -1,0 +1,48 @@
+
+.tab-bar-container {
+  width: 130vh;
+  margin: 0px 5px;
+  border: 1px solid #ccc;
+}
+.tab-bar-container-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-container {
+  background-color: #f3f3f3;
+  overflow: auto;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.tab-component {
+  cursor: pointer;
+  font-size: 13px;
+  display: inline-block;
+  padding: 2px;
+}
+.tab-componentName {
+  display: inline-block;
+  width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.add-icon-box {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  display: inline-flex;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.tab-cross-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+.tab-cross-icon:hover {
+  background-color: white;
+}

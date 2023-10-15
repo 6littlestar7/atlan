@@ -1,0 +1,58 @@
+
+.side-bar-outer-box {
+  background-color: #e6e6e6;
+  height: 100vh;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  margin: 5px 0;
+  cursor: pointer; 
+}
+
+.saved-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saved-outer-name {
+  width: 80%;
+  font-size: 13px;
+  padding: 1px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.add-new-button {
+  width: 100px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.saved-outer-name:hover {
+  background-color: white;
+}
+.image-button {
+  display: flex;
+  margin: 3px;
+  justify-content: center;
+  background-color: #e6e6e6;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.image-button:hover {
+  background-color: white;
+}

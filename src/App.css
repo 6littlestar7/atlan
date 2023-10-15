@@ -1,0 +1,112 @@
+/* src/App.css */
+body {
+  background-color: #e6e6e6;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+  
+.App {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+
+.color-green {
+  background-color: #05aa6d;
+  color: #f3f3f3;
+  font-size: 20px;
+}
+.color-green:hover{
+  color: black;
+}
+.main-outer {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.run-query-box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: white; 
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #ccc;
+}
+.button {
+  font-size: 15px;
+  background-color: #05aa6d; 
+  cursor: pointer;
+  border: none;
+  color: white;
+  margin: 20px 0px;
+  border-radius: 5px;
+  padding: 4px;
+}
+.button:hover {
+  background-color: #ccc;
+  color: black;
+}
+.run-query-box button {
+  padding: 6px;
+  border: 1px solid white;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  font-size: 10px;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 5px 0;
+}
